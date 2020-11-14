@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
 <?php
   //nhan lai username vaf password tu trang login.php
   $user = $_REQUEST['username'];
@@ -33,10 +25,4 @@
   //giai phong cac tap ban gi
   mysqli_free_result($row); //giai phong bo nho cua bien da luu kq truy van truoc do
   mysqli_close($link);//dong 1 ket noi co so du lieu dang mo
-
-    
-
 ?>
-  
-</body>
-</html>
