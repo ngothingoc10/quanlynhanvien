@@ -43,6 +43,7 @@ main {
 }
 
 .left-sidebar {
+  padding-top: 22px;
   width: 20%;
   text-align: center;
 }
@@ -52,13 +53,14 @@ main {
 }
 .main {
   width: 60%;
+  min-height: 500px;
   background-color: #ECAB53;
 }
 
 .header-title {
   text-align: center;
   color:red;
-  font-family: 'Brush Script MT';
+  font-family: courier,arial,helvetica;
   font-size: 30px;
 }
 .flex-center {
@@ -67,4 +69,12 @@ main {
   align-items: center;
   height: 100%;
   justify-content: center;
+}
+footer {
+  background: #808000;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+aside {
+  background-color: #66CDAA;
 }
