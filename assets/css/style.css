@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn-menu {     
+  display: inline-block;  
+  margin: 0.5rem;   /* canle*/
+  padding: 0.2rem 0.2rem;    /* khoang trong giua noi dung va duong vien*/
+  border: none;   
+  outline: none;  /* dinh dang cho duong bao ngoai*/
+  background-color:#8B4513;    
+  font-family: inherit;    
+  line-height: 1.5rem;    /* xacdinh chieu cao cua 1 donng*/
+  text-decoration: none;   
+  width: 200px;   
+  letter-spacing: 2px;/* tang hoac giam cac ki tu trong doan text*/
+}
+.a-menu {  
+  color: #FFEFD5; 
+  text-decoration:none;
+}
+.container {
+  width: 100%;
+}
+.content-footer {
+  text-align: center;
+  font-size: 17px;
+  font-family:  'Comic Sans MS' ;
+  margin-top: 30px;  /*dat le tren*/
+}
+
+header {
+  background-color: #DEB887;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.left-sidebar {
+  width: 20%;
+  text-align: center;
+}
+.right-sidebar {
+  width: 20%;
+  text-align: center;
+}
+.main {
+  width: 60%;
+  background-color: #ECAB53;
+}
+
+.header-title {
+  text-align: center;
+  color:red;
+  font-family: 'Brush Script MT';
+  font-size: 30px;
+}
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
